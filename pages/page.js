@@ -4,6 +4,6 @@ export default class Page {
     }
     
     getTitle() {
-        browser.getTitle()
+        return browser.getTitle()
     }
 }
